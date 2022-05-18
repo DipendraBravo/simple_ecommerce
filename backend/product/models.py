@@ -1,6 +1,7 @@
 from io import BytesIO
 from PIL import Image
 from django.db import models
+from django.core.files import File
 
 # Create your models here.
 class Category(models.Model):
